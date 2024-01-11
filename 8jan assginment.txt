@@ -1,0 +1,314 @@
+1)
+34 
+-6.7
+12
+8.09
+o
+w 
+#include<stdio.h>
+int main() {
+    //34 -6.7 12 8.09 o w
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    printf("enter the value of a is :%d\n",a);
+    float b;
+    printf("enter the decimal value of b");
+    scanf("%f",&b);
+    printf("the value of b is :%f\n",b);
+    int c;
+    printf("enter the value of c");
+    scanf("%d",&c);
+    printf("the value of c is :%d\n",c);
+    float d;
+    printf("enter the decimal value of d");
+    scanf("%f",&d);
+    printf("the value of d is :%f\n",d);
+    char aj;
+    printf("enter the aj character");
+    scanf(" %c",&aj);
+    printf("the aj character is :%c\n",aj);
+    
+      char dj;
+    printf("enter the dj character");
+    scanf(" %c",&dj);
+    printf("the dj character is :%c\n",dj);
+    return 0;
+}
+output
+enter the value of a34
+enter the value of a is :34
+enter the decimal value of b-6.7
+the value of b is :-6.700000
+enter the value of c12
+the value of c is :12
+enter the decimal value of d8.09
+the value of d is :8.090000
+enter the aj character0
+the aj character is :0
+enter the dj characterw
+the dj character is :w
+
+
+
+
+2)
+r
+12
+-78
+y
+8.9
+16
+-9.8
+#include<stdio.h>
+int main() {
+    char aj;
+    printf("enter the value of character aj");
+    scanf(" %c",&aj);
+    printf("enter the value of character aj is :%c\n",aj);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    printf("the value of b is :%d\n",b);
+    int c;
+    printf("enter the value of c");
+    scanf("%d",&c);
+    printf("the value of c is :%d\n",c);
+    char dj;
+    printf("enter the value of character dj");
+    scanf(" %c",&dj);
+    printf("the value of  character d is :%c\n",dj);
+    float a;
+    printf("enter the decimal value of a");
+    scanf(" %f",&a);
+    printf("the value of a is :%f\n",a);
+    int d;
+    printf("enter the value of d");
+    scanf(" %d",&d);
+    printf("the value of d is :%d\n",d);
+    float e;
+    printf("enter the decimal value of e");
+    scanf("%f",&e);
+    printf("the value of e is :%f",e);
+    return 0;
+}
+output:
+enter the value of character ajr
+enter the value of character aj is :r
+enter the value of b12
+the value of b is :12
+enter the value of c-78
+the value of c is :-78
+enter the value of character djy
+the value of  character d is :y
+enter the decimal value of a8.9
+the value of a is :8.900000
+enter the value of d16
+the value of d is :16
+enter the decimal value of e-9.8
+the value of e is :-9.800000
+
+
+
+3)
+23 +9 
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    int c=a+b;
+    printf("%d",c);
+    return 0;
+}
+output:
+enter the value of a23
+enter the value of b9
+32
+
+
+4)23 -9 
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    int c=a-b;
+    printf("%d",c);
+    return 0;
+}
+output:
+enter the value of a23
+enter the value of b9
+14
+
+
+5)
+12*3 
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    int c=a*b;
+    printf("%d",c);
+    return 0;
+}
+output:
+enter the value of a12
+enter the value of b3
+36
+
+
+6)
+66/3
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    int c=a/b;
+    printf("%d",c);
+    return 0;
+}
+output:
+enter the value of a66
+enter the value of b3
+22
+
+
+7)
+56+78+34+12
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    int c;
+    printf("enter the value of c");
+    scanf("%d",&c);
+    int d;
+    printf("enter the value of d");
+    scanf("%d",&d); 
+    int e=a+b+c+d;
+    printf("%d",e);
+    return 0;
+}
+output:
+enter the value of a56
+enter the value of b78
+enter the value of c34
+enter the value of d12
+180
+
+
+
+8)
+12*4-6/2
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    int c;
+    printf("enter the value of c");
+    scanf("%d",&c);
+    int d;
+    printf("enter the value of d");
+    scanf("%d",&d); 
+    int e=a*b-c/d;
+    printf("%d",e);
+    return 0;
+}
+output:
+enter the value of a12
+enter the value of b4
+enter the value of c6
+enter the value of d2
+45
+
+
+
+9)1.2*2-(8/2)
+#include<stdio.h>
+int main(){
+    float a;
+    printf("enter the decimal value of a");
+    scanf("%f",&a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    int c;
+    printf("enter the value of c");
+    scanf("%d",&c);
+    int d;
+    printf("enter the value of d");
+    scanf("%d",&d); 
+    float e=a*b-(c/d);
+    printf("%f",e);
+    return 0;
+}
+output:
+enter the decimal value of a1.2
+enter the value of b2
+enter the value of c8
+enter the value of d2
+-1.600000
+
+
+
+10)12*7+45-(34-3)+3.4 -8.9 
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    int c;
+    printf("enter the value of c");
+    scanf("%d",&c);
+    int d;
+    printf("enter the value of d");
+    scanf("%d",&d);
+    int e;
+    printf("enter the value of e");
+    scanf("%d",&e);
+    float f;
+    printf("enter the decimal value of f");
+    scanf("%f",&f);
+    float g;
+    printf("the the decimal value of g");
+    scanf("%f",&g);
+    float h=a*b+c-(d-e)+f-g;
+    printf("%f",h);
+    return 0;
+}
+output:
+enter the value of a12
+enter the value of b7
+enter the value of c45
+enter the value of d34
+enter the value of e3
+enter the decimal value of f3.4
+the the decimal value of g8.9
+92.500000

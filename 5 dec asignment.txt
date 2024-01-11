@@ -1,0 +1,70 @@
+first 1
+
+#include<stdio.h>
+
+int main()
+{
+    printf("welcome to india");
+    printf("welcome to america");
+    printf("welcome to delhi");
+    printf("welcome to pakistan");
+    return 0;
+}
+
+second
+
+#include<stdio.h>
+
+int main()
+{
+    printf("welcome to india/n");
+    printf("welcome to america/n");
+    printf("welcome to delhi/n");
+    printf("welcome to pakistan/n");
+    return 0;
+}
+
+third
+
+#include<stdio.h>
+
+int main()
+{
+    printf("five fruits name/n");
+    printf("apple/n");
+    printf("mango/n");
+    printf("banana/n");
+    printf("orange/n");
+    printf("grapes/n")
+    return 0;
+}
+
+fourth
+
+#include<stdio.h>
+
+int main()
+{
+    printf("five country name/n");
+    printf("india/n");
+    printf("america/n");
+    printf("california/n");
+    printf("pakistan/n");
+    printf("hongkong/n")
+    return 0;
+}
+
+fifth
+
+#include<stdio.h>
+
+int main()
+{
+    printf("five city name/n");
+    printf("delhi/n");
+    printf("jaipur/n");
+    printf("ajmer/n");
+    printf("udaipur/n");
+    printf("jodhpur/n")
+    return 0;
+}

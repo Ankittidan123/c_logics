@@ -1,0 +1,502 @@
+1). to check a number 10 se greater 
+#include<stdio.h>
+int main (){
+    int num;
+    printf("enter the value");
+    scanf( "%d",&num);
+    if (num>10){
+        printf("num is greater");
+    }
+    return 0;
+}
+output:
+enter the value43
+num is greater
+
+
+2). to check a number 50 se greater 
+#include<stdio.h>
+int main (){
+    int num;
+    printf("enter the value");
+    scanf("%d",&num);
+    if (num>50){
+        printf("the num is greater");
+    }
+    return 0;
+}
+output:
+enter the value45
+
+
+
+3). to check a number 500 se greater 
+#include<stdio.h>
+int main(){
+    int num;
+    printf("enter the value");
+    scanf("%d",&num);
+    if(num>500){
+        printf("the num is greater");
+    }
+    return 0;
+}
+output:
+enter the value445
+
+
+
+4). a: apple  
+#include<stdio.h>
+int main(){
+char a;
+printf("enter the alphabat");
+scanf("%c",&a);
+if(a==a){
+    printf("apple");
+}
+    else{
+        printf("not match");
+    }
+    return 0;
+}
+output:
+enter the alphabata
+apple
+
+
+
+5).  b:ball 
+not match 
+#include<stdio.h>
+int main(){
+    char a;
+    printf("enter the alpha : ");
+    scanf("%c",&a);
+    if(a=='b'){
+        printf("ball");
+    }
+    else{
+        printf("not match");
+    }
+    return 0;
+}
+
+
+
+6). c :cat 
+not match 
+#include<stdio.h>
+int main(){
+    char a;
+    printf("enter the alpha : ");
+    scanf("%c",&a);
+    if(a=='c'){
+        printf("cat");
+    }
+    else{
+        printf("not match");
+    }
+    return 0;
+}
+
+
+
+7). addition two number 
+    sorry! not match
+#include<stdio.h>
+int main(){
+    char a;
+    printf("enter the alpha : ");
+    scanf("%c",&a);
+    if(a=='a'){
+        int a;
+        printf("enter the value of a");
+        scanf("%d",&a);
+        int b;
+        printf("enter the value of b");
+        scanf("%d",&b);
+        int c=a+b;
+        printf("%d",c);
+    }
+    else{
+        printf("sorry! not match");
+    }
+    return 0;
+}
+output: 
+enter the alpha : a
+enter the value of a2
+enter the value of b2
+4
+
+
+8). s subtract two number
+    sorry! not match
+#include<stdio.h>
+int main(){
+    char a;
+    printf("enter the alpha : ");
+    scanf("%c",&a);
+    if(a=='a'){
+        int a;
+        printf("enter the value of a");
+        scanf("%d",&a);
+        int b;
+        printf("enter the value of b");
+        scanf("%d",&b);
+        int c=a-b;
+        printf("%d",c);
+    }
+    else{
+        printf("sorry! not match");
+    }
+    return 0;
+}
+output:
+enter the alpha : a
+enter the value of a4
+enter the value of b2
+2
+
+
+9). d divide two number
+    sorry! not match
+#include<stdio.h>
+int main(){
+    char a;
+    printf("enter the alpha : ");
+    scanf("%c",&a);
+    if(a=='a'){
+        int a;
+        printf("enter the value of a");
+        scanf("%d",&a);
+        int b;
+        printf("enter the value of b");
+        scanf("%d",&b);
+        int c=a/b;
+        printf("%d",c);
+    }
+    else{
+        printf("sorry! not match");
+    }
+    return 0;
+}
+output:
+enter the alpha : a
+enter the value of a6
+enter the value of b2
+3
+
+
+
+
+10). m multiple four number
+     sorry! not match
+#include <stdio.h>
+
+int main ()
+{
+  char alpha;
+  printf("enter the value of alph : ");
+  scanf("%c",&alpha);
+  if(alpha=='m'){
+      int a;
+      int b;
+      int c;
+      int d;
+      printf("enter the value of a");
+      scanf("%d",&a);
+      printf("enter the value of b");
+      scanf("%d",&b);
+      printf("enter the value of c");
+      scanf("%d",&c);
+      printf("enter the value of d");
+      scanf("%d",&d);
+      int e=a*b*c*d;
+      printf("%d",e);
+  }
+  else{
+      printf("sorry! not match");
+  }
+  return 0;
+}
+output:
+
+
+11).  o: modular two number 
+Sorry ! not match 
+#include <stdio.h>
+ int main () 
+ { 
+char alpha;
+printf ("enter the value of alph : ");
+scanf ("%c", &alpha);
+if (alpha == 'o')
+    {
+int a;
+int b;
+printf ("enter the value of a");
+scanf ("%d", &a);
+printf ("enter the value of b");
+scanf ("%d", &b);
+int c = a % b;
+printf ("%d", c);   
+}
+  else
+    {
+printf ("sorry! not match");   
+}
+return 0;
+}
+
+
+12).  m :you are male 
+not match
+#include<stdio.h>
+int main(){
+    char alpha;
+    printf("enter the alpha");
+    scanf("%c",&alpha);
+    if(alpha=='m'){
+        printf("you are male");
+    }
+    else{
+        printf("sorry! tum mard nhi ho ");
+    }
+    return 0;
+}
+
+
+13). f :you are female 
+not match
+#include<stdio.h>
+int main(){
+    char alpha;
+    printf("enter the alpha");
+    scanf("%c",&alpha);
+    if(alpha=='f'){
+        printf("you are female");
+    }
+    else{
+        printf("sorry! tum aurat nhi ho ");
+    }
+    return 0;
+}
+
+
+
+Q14) w :
+number swap with third variable 
+not match 
+#include<stdio.h>
+int main(){
+    char alpha;
+    printf("enter the alpha");
+    scanf("%c",&alpha);
+    if(alpha=='w'){
+        int a=10;
+        int b=20;
+        int c;
+        printf("the real value of a is :%d\n",a);
+        printf("the real value of b is :%d\n",b);
+        c=a;
+        a=b;
+        b=c;
+        printf("the swap value of a is :%d\n",a);
+        printf("the swap value of b is :%d\n",b);
+    }
+    else{
+        printf("sorry! not match ");
+    }
+    return 0;
+}
+output:
+enter the alphaw
+the real value of a is :10
+the real value of b is :20
+the swap value of a is :20
+the swap value of b is :10
+
+
+
+
+Q15) s :number swap without third variable 
+not match 
+#include<stdio.h>
+int main(){
+    char alpha;
+    printf("enter the alpha");
+    scanf("%c",&alpha);
+    if(alpha=='w'){
+        int a=10;
+        int b=20;
+        int c;
+        printf("the real value of a is :%d\n",a);
+        printf("the real value of b is :%d\n",b);
+        c=a;
+        a=b;
+        b=c;
+        printf("the swap value of a is :%d\n",a);
+        printf("the swap value of b is :%d\n",b);
+    }
+    else{
+        printf("sorry! not match ");
+    }
+    return 0;
+}
+output:
+enter the alphaw
+the real value of a is :10
+the real value of b is :20
+the swap value of a is :20
+the swap value of b is :10 
+
+
+
+Q16)to check a number is divisible by 5 or not
+#include<stdio.h>
+int main(){
+    int num;
+    printf("enter the value of num");
+    scanf("%d",&num);
+    if(num%5==0){
+        printf("yes divisible");
+    }
+    else{
+        printf("not divisible");
+    }
+    return 0;
+}
+output:
+enter the value of num55
+yes divisible
+
+
+
+Q17) to check a number is divisible by 7or not
+#include<stdio.h>
+int main(){
+    int num;
+    printf("enter the value of num");
+    scanf("%d",&num);
+    if(num%7==0){
+        printf("yes divisible");
+    }
+    else{
+        printf("not divisible");
+    }
+    return 0;
+}
+output:
+enter the value of num49
+yes divisible
+
+
+
+
+Q18)to check a number is divisible by 67 or not 
+#include<stdio.h>
+int main(){
+    int num;
+    printf("enter the value of num");
+    scanf("%d",&num);
+    if(num%67==0){
+        printf("yes divisible");
+    }
+    else{
+        printf("not divisible");
+    }
+    return 0;
+}
+output:
+enter the value of num449
+not divisible
+
+
+
+19). voter id : 
+->check 
+user age 18 se jyada hey valid 
+->not 
+#include<stdio.h>
+int main(){
+    int age;
+    printf("enter ypur age");
+    scanf("%d",&age);
+    if(age>=18){
+        printf("valid");
+    }
+    else{
+        printf("tu chhota h abhi");
+    }
+    return 0;
+}
+output:
+enter ypur age7
+tu chhota h abhi
+
+
+
+Q20)user 1 input :
+one 
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the number :");
+    scanf("%d",&a);
+    if(a==1){
+        printf("one");
+    }
+    else{
+        printf("not match");
+    }
+    return 0;
+}
+
+
+
+Q21)user 2 input :
+two
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the number :");
+    scanf("%d",&a);
+    if(a==2){
+        printf("two");
+    }
+    else{
+        printf("not match");
+    }
+    return 0;
+}
+
+
+
+Q22)user 2 input :
+three
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the number :");
+    scanf("%d",&a);
+    if(a==3){
+        printf("three");
+    }
+    else{
+        printf("not match");
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
